@@ -1,0 +1,88 @@
+#+TITLE: Pale Blue Dot Driven Data Competition
+* Reunião 20/01/24 (c/ Jocimar)
+- Qual método de irrigação apropriado? criar um guia.
+- uva, laranja (permanente)
+- arroz, *batata doce, *abacaxi, *cana de açúcar (lavoura que dura o
+  ano todo), mandioca (temporária) -> mais estudo! depende mais de
+  variáveis meteorológicas
+- criar um app que mostre evapo e precipitação facilmente.
+  - utilizar IA para prever a evapo e precipitação
+- calcular pegada hídrica
+* Artigos
+** Reproduzir nota técnica / evapo
+- Evapotranspiração pelo modelo de penman-monteith depende de dados de
+estações atmosféricas. Tem que pegar no INMET e/ou ANA.
+** Evapotranspiração (ET) por satélite
+"Actual ET (aET) data were sourced from NASA’s Terra Moderate
+Resolution Imaging Spectroradiometer (MODIS), and reference ET (refET)
+and precipitation data were sourced from the Gridded Surface
+Meteorological Dataset (gridMET)."
+** Monitorando secas por satélite
+https://lpdaac.usgs.gov/resources/data-action/two-sensors-are-greater-one-observing-drought-smap-and-modis/
+
+Remote sensing data are important because there are useful
+drought-indicating parameters besides precipitation that can be
+measured from space, including evapotranspiration (ET), vegetation
+indices, land surface temperature (LST), and soil moisture.
+*** Xavier et al 2022
+Gridded data for
+- Precipitation (pr, mm)
+- Minimum temp (Tmin, ºC)
+- max temp (Tmax)
+- solar radiation (Rs, MJ/m^2/day)
+- wind speed at 2 m height (u2, m/s)
+- relative humidity (RH, %)
+* Reunião 11/01/24
+** índice DDI vs Evapotranspiração
+** Buscar focos de desertificação
+** Problema das nuvens
+* Goals
+* Pale Blue Dot NASA tutorial
+ELizabeth Joyner
+NASA Earth Science Data
+
+Earth System Science
+- weather
+- surface
+- climate variability and change
+- carbon cycle
+- atmospheric composition
+- water and energy cycle
+
+MAjor satellites, ISS, meteorological, etc
+
+Types of data 
+
+Data differences
+- availability
+- temporal and spatial coverage and resolutions
+- format
+
+Data literacy -> Fluency / dexterity -> Data able
+
+- Avoid clouds? 
+  - sentinel-2 and landsat cloud prob
+  - driven data competition on cloud detection
+- Human-made deforestation
+  - Wildfires pathfinder
+
+
+** Common tools
+- NASA worldview (only images) Level 2-3 imagery
+- Giovanni (CSV, GEOTIFF, NetCDF)
+  - level 3-4 (research)
+- Earthdata search (all formats and data)
+** Pathfinders
+- agriculture
+- water quality
+
+- They have learn pages
+  - pathfinders by SDG
+** Earthdata Forums
+* Evapotranspiration data
+** Open ET
+Evaporation from land + transpiration from plants -> gives information on how much irrigation and precipitation agricultors need.
+https://openetdata.org/openet-use-cases
+** Open Science 101
+
+

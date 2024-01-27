@@ -1,0 +1,15 @@
+pandas
+matplotlib.pyplot
+climateservaccess
+json
+ipywidgets
+pyperclip
+geopandas
+shapely.geometry
+folium
+datetime
+numpy
+os
+requests
+time
+rasterio
